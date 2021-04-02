@@ -1,11 +1,11 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { from } from 'rxjs';
 import { AppComponent } from './app.component';
 import {SharedModule } from './shared/shared.module'
 import {DmoduleModule} from './dmodule/dmodule.module'
 describe('AppComponent', () => {
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
