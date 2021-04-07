@@ -1,0 +1,13 @@
+.slide-img{
+    overflow: hidden;
+}
+.Heading-slide{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition:1s;
+}
+.h3{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
